@@ -27,10 +27,10 @@ def generate_riddles(prompt="", num_return_sequences=1):
     outputs = model.generate(
         input_ids,
         do_sample=True,
-        max_length=100,
-        top_k=50,
-        top_p=0.92,
-        temperature=0.7,
+        max_length=150,
+        top_k=70,
+        top_p=0.82,
+        temperature=0.2,
         repetition_penalty=1.2,
         num_return_sequences=num_return_sequences,
         pad_token_id=tokenizer.eos_token_id,
@@ -38,7 +38,7 @@ def generate_riddles(prompt="", num_return_sequences=1):
     riddles = [tokenizer.decode(output, skip_special_tokens=True) for output in outputs]
     return riddles
 
-user_prompt = st.text_input("Prompt", "Here is a math riddles:")
+user_prompt = st.text_input("Prompt", "Here is a math riddle:")
 
 if st.button("Generate Riddle"):
     with st.spinner("Generating riddle..."):
