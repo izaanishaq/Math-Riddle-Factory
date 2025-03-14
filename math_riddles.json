@@ -1,0 +1,117 @@
+{
+    "riddles": [
+      {
+        "input": "Generate a math riddle",
+        "output": "What number becomes zero when you subtract 15 from half of it? Answer: 30"
+      },
+      {
+        "input": "Create a math puzzle",
+        "output": "I am a number. When you multiply me by 3 and add 12, you get 30. What number am I? Answer: 6"
+      },
+      {
+        "input": "Make a math riddle",
+        "output": "I am a two-digit number. My tens digit is twice my ones digit. The sum of my digits is 9. What number am I? Answer: 63"
+      },
+      {
+        "input": "Give me a math riddle",
+        "output": "If you add 7 to me, then divide by 2, you get 10. What number am I? Answer: 13"
+      },
+      {
+        "input": "Math riddle please",
+        "output": "I am a number less than 50. When you divide me by 7, the remainder is 3. When you divide me by 5, the remainder is 2. What is the largest such number? Answer: 47"
+      },
+      {
+        "input": "Challenge me with a math riddle",
+        "output": "Double me and subtract 4, you get 10. What number am I? Answer: 7"
+      },
+      {
+        "input": "I need a math puzzle",
+        "output": "I am a three-digit number. My tens digit is the sum of my hundreds and ones digit. My hundreds digit is 2 more than my ones digit. What number am I? Answer: 253"
+      },
+      {
+        "input": "Can you give me a math riddle?",
+        "output": "I am a number. Multiply me by 4, then subtract 6, you get 18. What number am I? Answer: 6"
+      },
+      {
+        "input": "A tricky math puzzle, please",
+        "output": "I am a number. If you square me and subtract 9, you get 16. What number am I? Answer: 5"
+      },
+      {
+        "input": "Create an easy math riddle",
+        "output": "What comes next in the sequence: 2, 6, 12, 20, 30, __? Answer: 42 (n^2 + n)"
+      },
+      {
+        "input": "Generate a logical math puzzle",
+        "output": "I am a number between 10 and 50. I am divisible by both 3 and 5. What number am I? Answer: 30"
+      },
+      {
+        "input": "Give me a math challenge",
+        "output": "A father is 30 years older than his son. In 10 years, he will be three times his son's age. How old is the son now? Answer: 5"
+      },
+      {
+        "input": "Make a fun math riddle",
+        "output": "I am a number. If you divide me by 5 and add 7, you get 12. What number am I? Answer: 25"
+      },
+      {
+        "input": "A simple math riddle, please",
+        "output": "I am a number. If you multiply me by myself, then subtract 4, you get 21. What number am I? Answer: 5"
+      },
+      {
+        "input": "Math puzzle for kids",
+        "output": "I am a number. If you subtract me from 10, you get twice my value. What number am I? Answer: 10/3"
+      },
+      {
+        "input": "A fun math problem",
+        "output": "I am an even number. If you divide me by 3, the remainder is 1. If you divide me by 5, the remainder is 4. What number am I? Answer: 16"
+      },
+      {
+        "input": "Another math riddle",
+        "output": "I am a three-digit number. My tens digit is 4 more than my ones digit. My hundreds digit is 1 less than my tens digit. What number am I? Answer: 593"
+      },
+      {
+        "input": "A tricky math question",
+        "output": "I am a number. If you subtract 6 from me and divide by 2, you get 7. What number am I? Answer: 20"
+      },
+      {
+        "input": "Create a unique math riddle",
+        "output": "I am a number. If you add my digits together, you get 12. If you reverse my digits, I am still the same number. What number am I? Answer: 66"
+      },
+      {
+        "input": "A brain-teasing math puzzle",
+        "output": "I am a number. If you multiply me by 4 and subtract 10, you get 50. What number am I? Answer: 15"
+      },
+      {
+        "input": "A fun number puzzle",
+        "output": "I am a number. If you multiply me by myself, you get 49. What number am I? Answer: 7"
+      },
+      {
+        "input": "A riddle about a sequence",
+        "output": "What comes next: 1, 4, 9, 16, 25, __? Answer: 36 (n^2)"
+      },
+      {
+        "input": "A division-based math puzzle",
+        "output": "I am a number. If you divide me by 7, the remainder is 4. If you divide me by 5, the remainder is 2. What is the smallest such number? Answer: 19"
+      },
+      {
+        "input": "A clever math riddle",
+        "output": "I am a number. If you double me and add 8, you get 20. What number am I? Answer: 6"
+      },
+      {
+        "input": "A pattern-based puzzle",
+        "output": "I follow the pattern: 3, 6, 12, 24, 48, __? Answer: 96 (each term ×2)"
+      },
+      {
+        "input": "A riddle with sums",
+        "output": "I am a number. If you add 5 to me, then double the result, you get 30. What number am I? Answer: 10"
+      },
+      {
+        "input": "A quick math challenge",
+        "output": "I am a number. If you subtract 9 from me, you get 4 times my original value. What number am I? Answer: 3"
+      },
+      {
+        "input": "A multiplication-based puzzle",
+        "output": "I am a number. If you multiply me by 5, you get 35. What number am I? Answer: 7"
+      }
+    ]
+  }
+  
