@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-st.title("Math Riddles Generator")
+st.title("Math Riddles Generator (GPT-2)")
 st.write("Enter a prompt to generate math riddles:")
 
 @st.cache_resource
@@ -20,7 +20,7 @@ def load_model_and_tokenizer():
 tokenizer, model = load_model_and_tokenizer()
 
 
-def generate_riddles(prompt="", num_return_sequences=5):
+def generate_riddles(prompt="", num_return_sequences=1):
     input_ids = tokenizer.encode(prompt, return_tensors="pt")
     if torch.cuda.is_available():
         input_ids = input_ids.to("cuda")
@@ -38,7 +38,7 @@ def generate_riddles(prompt="", num_return_sequences=5):
     riddles = [tokenizer.decode(output, skip_special_tokens=True) for output in outputs]
     return riddles
 
-user_prompt = st.text_input("Prompt", "Here are some math riddles:")
+user_prompt = st.text_input("Prompt", "Here is a math riddles:")
 
 if st.button("Generate Riddle"):
     with st.spinner("Generating riddle..."):
