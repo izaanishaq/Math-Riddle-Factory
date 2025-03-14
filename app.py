@@ -8,7 +8,7 @@ st.write("Enter a prompt to generate math riddles:")
 @st.cache_resource
 def load_model_and_tokenizer():
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-    model_name = "izaanishaq/math_riddle-gpt2"  # Your Hugging Face model repo
+    model_name = "izaanishaq/math_riddle-gpt2"  
     model = GPT2LMHeadModel.from_pretrained(model_name)
     if torch.cuda.is_available():
         model = model.to("cuda")
@@ -40,9 +40,8 @@ def generate_riddles(prompt="", num_return_sequences=5):
 
 user_prompt = st.text_input("Prompt", "Here are some math riddles:")
 
-if st.button("Generate Riddles"):
-    with st.spinner("Generating riddles..."):
-        riddles = generate_riddles(user_prompt, num_return_sequences=5)
-    st.subheader("Generated Riddles:")
-    for idx, riddle in enumerate(riddles, 1):
-        st.markdown(f"**{idx}.** {riddle}")
+if st.button("Generate Riddle"):
+    with st.spinner("Generating riddle..."):
+        riddle = generate_riddles(user_prompt, num_return_sequences=1)[0]
+    st.subheader("Generated Riddle:")
+    st.markdown(f"**{riddle}**")
